@@ -28,10 +28,9 @@ class nimicClass():
         """
         Decrypts an encrypted message
         """
-
         f = Fernet(self.key)
         decryptedMessage = f.decrypt(encryptedMessage)
+        return decryptedMessage
 
 
 print(nimicClass().decryptMessage(nimicClass().encryptMessage("mesaj inc riptat lol")))
-print('asdf1')
