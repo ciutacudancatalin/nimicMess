@@ -33,4 +33,4 @@ class nimicClass():
         return decryptedMessage
 
 
-print(nimicClass().decryptMessage(nimicClass().encryptMessage("mesaj inc riptat lol")))
+# print(nimicClass().decryptMessage(nimicClass().encryptMessage("mesaj inc riptat lol")))
